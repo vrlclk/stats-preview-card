@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stats">
+      <picture class="stats__picture">
+        <source srcset="images/image-header-desktop.jpg" media="(min-width: 1440px)">
+        <img src="images/image-header-mobile.jpg" alt="A black and white photo of a group of ladies working together on a table in front of their laptops, laughing and having fun.">
+      </picture>
+
+      <div class="stats__text-container">
+        <div class="stats__introduction">
+          <h1 class="stats__introduction-heading">Get <span class="keyword">insights</span> that help your business grow.</h1>      
+          <p class="stats__introduction-description">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        </div>
+    
+        <div class="stats__data-container">  
+          <div class="stats__data">
+            <h2 class="stats__number">10k+</h2>
+            <p class="stats__legend">companies</p>
+          </div>
+    
+          <div class="stats__data">
+            <h2 class="stats__number">314</h2>
+            <p class="stats__legend">templates</p>
+          </div>
+    
+          <div class="stats__data">
+            <h2 class="stats__number">12M+</h2>
+            <p class="stats__legend">queries</p>
+          </div>
+        </div>
+      </div>
+  </main>
+</body>
+</html>
