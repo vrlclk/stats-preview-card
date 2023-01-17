@@ -27,9 +27,9 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 
 
-### Links
+### Result
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+https://stats-preview-by-vrlclk.netlify.app/
 
 ## My process
 
@@ -64,8 +64,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [Two ways to create an image with a colour overlay in CSS](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio) - I used the first solution. I don't know if this is the right way to put a color on an image because all it does is to change the opacity of the image and not the color.
-- [Change the alignment of a Grid columns to rows](https://stackoverflow.com/questions/56385519/how-to-convert-css-grid-template-columns-to-rows-responsively)
+- [Two ways to create an image with a color overlay in CSS](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio) - I used the first solution. I don't know if this is the right way to put a color on an image because all it does is to change the opacity of the image and not the color.
+- [Change the alignment of Grid columns to rows](https://stackoverflow.com/questions/56385519/how-to-convert-css-grid-template-columns-to-rows-responsively)
 - [Values of ``place-items``](https://developer.mozilla.org/en-US/docs/Web/CSS/place-items) - Compared to ``align-items`` for Flexbox, ``place-items`` uses differently names values but have the same behavior: start is left, center is center and end is right.
 
 ## Author
